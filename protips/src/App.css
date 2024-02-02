@@ -1,0 +1,100 @@
+body {
+  margin: 0%;
+  background-color: wheat;
+  font-weight: 900;
+}
+.head {
+  background-color: rgb(0, 0, 0);
+  width: 90%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  border-radius: 0px 0px 90px 90px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.info {
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  background-color:yellow;
+  color: black;
+  position: relative;
+  width: 10%;
+  border-radius: 30px;
+}
+
+.topic a {
+  font-size: 1.3rem;
+}
+
+
+.parent{
+  margin:3% auto;
+  width: 30%;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: white;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+.lab,input{
+  display: block;
+  text-align: center;
+}
+
+input{
+  border: 0px ;
+  margin: 5px 0px;
+  border-radius: 10px;
+  height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.lab{
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.btn{
+  background-color: greenyellow;
+  font-size: large;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: purple;
+}
+
+.btn:hover{
+  background-color: rgb(107, 175, 4);
+  scale: 1.1;
+  transition: 0.3s ease-in;
+  color: black;
+}
+
+
+input ~ p{
+  color: rgb(203, 12, 12);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
